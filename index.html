@@ -19,7 +19,7 @@
                 <a href="./index.html" class="logostudio link-studio"><span class="secondary-logo">Web</span>Studio</a>
             
                 <ul class="pages-nav list">
-                    <li class="item"><a href="./index.html" class="site-nav-current link">Студія</a></li>
+                    <li class="item hover"><a href="./index.html" class="site-nav-current link">Студія</a></li>
                     <li class="item"><a href="./portfolio.html" class="site-nav link">Портфоліо</a></li>
                     <li class="item"><a href="#" class="site-nav link">Контакти</a></li>
                 </ul>
@@ -49,7 +49,7 @@
             <section class="hero">
                 <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
                 
-                <button type="button" class="button-hero">Замовити послугу</button>
+                <button type="button" class="button-hero" data-modal-open>Замовити послугу</button>
             </section>
 
         <section class="features">
@@ -106,10 +106,19 @@
             <div class="container">
                 <h2 class="occupation-title">Чим ми займаємося</h2>
                 
-                <ul class="list list-occupation">
-                    <li class="item"><img src="./images/picturefirst.jpg" alt="Набирання коду на ноутбуку чоловіком" width="370"></li>
-                    <li class="item"><img src="./images/picturesecond.jpg" alt="Жінка розроблює на ноутбуці дизайн програми" width="370"></li>
-                    <li class="item"><img src="./images/picturethird.jpg" alt="Малюнок на планшеті" width="370"></li>
+                <ul class="list">
+                    <li class="item list-occupation">
+                        <img src="./images/picturefirst.jpg" alt="Набирання коду на ноутбуку чоловіком" width="370">
+                        <p class="occupation-text-first">Десктопні додатки</p>
+                    </li>
+                    <li class="item list-occupation">
+                        <img src="./images/picturesecond.jpg" alt="Жінка розроблює на ноутбуці дизайн програми" width="370">
+                        <p class="occupation-text-second">Мобільні додатки</p>
+                    </li>
+                    <li class="item list-occupation">
+                        <img src="./images/picturethird.jpg" alt="Малюнок на планшеті" width="370">
+                        <p class="occupation-text-third">Дизайнерські рішення</p>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -394,5 +403,17 @@
         </section>
     </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="button" data-modal-close>
+                <svg  width="30" height="30">
+                    <use href="./images/icons.svg#close"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    
+    <script src="./js/modal.js"></script>
 </body>
 </html>
