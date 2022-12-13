@@ -109,15 +109,13 @@ img {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    transition-property: color;
-    transition: var(--primary-transition);
+    transition: color var(--primary-transition);
 }
 
 .site-nav:hover,
 .site-nav:focus{
     color: var(--accent-color);
-    transition-property: color;
-    transition: var(--primary-transition);
+    transition: color var(--primary-transition);
 }
 
 
@@ -172,32 +170,28 @@ img {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    transition-property: color;
-    transition: var(--primary-transition);
+    transition: color var(--primary-transition);
 }
 
 .auth-nav:hover,
 .auth-nav:focus {
     color: var(--accent-color);
     fill: var(--accent-color);
-    transition-property: color;
-    transition: var(--primary-transition);
+    transition: color var(--primary-transition);
 }
 
 .icon{
     vertical-align: middle;
     margin-right: 10px;
     fill: var(--secondary-color);
-    transition-property: fill, color;
-    transition: var(--primary-transition);
+    transition: fill var(--primary-transition);
 }
 
 .auth-nav:hover > .icon,
 .auth-nav:focus > .icon {
     color: var(--accent-color);
     fill: var(--accent-color);
-    transition-property: fill, color;
-    transition: var(--primary-transition);
+    transition: fill var(--primary-transition);
 }
 
 /*Підвал*/
@@ -236,8 +230,7 @@ img {
 
     font-size: 14px;
     line-height: 1.71;
-    transition-property: color;
-    transition: var(--primary-transition);
+    transition: color var(--primary-transition);
 }
 
 .footer-nav {
@@ -248,8 +241,7 @@ img {
 
     font-size: 14px;
     line-height: 1.71;
-    transition-property: color;
-    transition: var(--primary-transition);
+    transition: color var(--primary-transition);
 }
 
 .address{
@@ -259,22 +251,19 @@ img {
 .address-street:hover,
 .address-street:focus {
     color: var(--accent-color);
-    transition-property: color;
-    transition: var(--primary-transition);
+    transition: color var(--primary-transition);
 }
 
 .footer-nav:hover,
 .footer-nav:focus {
     color: var(--accent-color);
-    transition-property: color;
-    transition: var(--primary-transition);
+    transition: color var(--primary-transition);
 }
 
 .address-street {
     display: block;
     margin-bottom: 9px;
-    transition-property: color;
-    transition: var(--primary-transition);
+    transition: color var(--primary-transition);
 }
 
 .nav-mail {
@@ -318,8 +307,7 @@ img {
     border-radius: 50px;
     justify-content: center;
     align-items: center;
-    transition-property: background;
-    transition: var(--primary-transition);
+    transition: background var(--primary-transition);
 }
 
 .icon-social-footer {
@@ -333,8 +321,7 @@ img {
 .footer-icon-social:hover,
 .footer-icon-social:focus {
     background-color: var(--accent-color);
-    transition-property: background;
-    transition: var(--primary-transition);
+    transition: background var(--primary-transition);
 }
 
 /*Сторінка Cтудія*/
@@ -410,15 +397,13 @@ img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-color: transparent;
-    transition-property: background;
-    transition: var(--primary-transition);
+    transition: background var(--primary-transition);
 }
 
 .button-hero:hover,
 .button-hero:focus {
     background-color: var(--button-active);
-    transition-property: background;
-    transition: var(--primary-transition);
+    transition: background var(--primary-transition);
 }
 
 /*Секція особливості*/
@@ -666,8 +651,7 @@ img {
     border-radius: 50px;
     justify-content: center;
     align-items: center;
-    transition-property: background;
-    transition: var(--primary-transition);
+    transition: background var(--primary-transition);
 }
 
 .social .icon-list+.icon-list {
@@ -676,20 +660,19 @@ img {
 
 .icon-social-team {
     fill: #AFB1B8;
+    transition: fill var(--primary-transition);
 }
 
 .icon-social:hover,
 .icon-social:focus {
     background-color: var(--accent-color);
-    transition-property: background;
-    transition: var(--primary-transition);
+    transition: background var(--primary-transition);
 }
 
 .icon-social:hover > .icon-social-team,
 .icon-social:focus > .icon-social-team {
     fill: var(--white-color);
-    transition-property: fill;
-    transition: var(--primary-transition);
+    transition: fill var(--primary-transition);
 }
 
 .container-teamtext {
@@ -756,28 +739,24 @@ img {
     border-radius: 4px;
     justify-content: center;
     align-items: center;
-    transition-property: border;
-    transition: var(--primary-transition);
+    transition: border var(--primary-transition);
 }
 
 .company-link:hover,
 .company-link:focus {
     border-color: var(--accent-color);
-    transition-property: border;
-    transition: var(--primary-transition);
+    transition: border var(--primary-transition);
 }
 
 .company-icons {
     fill: #AFB1B8;
-    transition-property: fill;
-    transition: var(--primary-transition);
+    transition: fill var(--primary-transition);
 }
 
 .company-link:hover > .company-icons,
 .company-link:focus > .company-icons {
     fill: var(--accent-color);
-    transition-property: fill;
-    transition: var(--primary-transition);
+    transition: fill var(--primary-transition);
 }
 
 /*Modal Window*/
@@ -792,8 +771,7 @@ img {
 
     opacity: 1;
 
-    transition-property: opacity;
-    transition: var(--primary-transition);
+    transition: opacity var(--primary-transition);
 }
 
 .backdrop.is-hidden {
@@ -818,8 +796,7 @@ img {
     border-radius: 4px;
 
     transform: translate(-50%, -50%) scale(1);
-    transition-property: transform;
-    transition: var(--primary-transition);
+    transition: transform var(--primary-transition);
 }
 
 .button {
@@ -873,8 +850,7 @@ img {
     
     border-radius: 4px;
     border-color: transparent;
-    transition-property: background, color;
-    transition: var(--primary-transition);
+    transition: background var(--primary-transition), color var(--primary-transition), box-shadow var(--primary-transition);
 }
 
 .button-portfolio{
@@ -900,8 +876,7 @@ img {
 
     border-radius: 4px;
     border-color: transparent;
-    transition-property: background, color;
-    transition: var(--primary-transition);
+    transition: background var(--primary-transition), color var(--primary-transition), box-shadow var(--primary-transition);
 }
 
 .button-portfolio:hover,
@@ -911,8 +886,7 @@ img {
 
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    transition-property: background, color;
-    transition: var(--primary-transition);
+    transition: background var(--primary-transition), color var(--primary-transition), box-shadow var(--primary-transition);
 }
 
 .button-portfolio-all:hover,
@@ -921,8 +895,7 @@ img {
     color: var(--white-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    transition-property: background, color;
-    transition: var(--primary-transition);
+    transition: background var(--primary-transition), color var(--primary-transition), box-shadow var(--primary-transition);
 }
 
 .buttons-filtr .item+.item {
@@ -954,15 +927,13 @@ img {
     display: block;
     text-decoration: none;
     position: relative;
-    transition-property: box-shadow;
-    transition: var(--primary-transition);
+    transition: box-shadow var(--primary-transition);
 }
 
 .project-link:hover,
 .project-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    transition-property: box-shadow;
-    transition: var(--primary-transition);
+    transition: box-shadow var(--primary-transition);
 }
 
 .project-overlay {
@@ -992,8 +963,7 @@ img {
     color: #FFFFFF;
 
     transform: translateY(+100%);
-    transition-property: transform;
-    transition: var(--primary-transition);
+    transition: transform var(--primary-transition);
 }
 
 .project-link:hover .text-overlay {
