@@ -966,7 +966,8 @@ img {
     transition: transform var(--primary-transition);
 }
 
-.project-link:hover .text-overlay {
+.project-link:hover .text-overlay,
+.project-link:focus .text-overlay {
     transform: translateY(0);
 }
 
